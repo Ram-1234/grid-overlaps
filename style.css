@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color: grey;
+    margin: auto;
+    margin-top: 5%;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+.one{
+    background-color: red;
+    padding: 20px;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    border: 0.5px solid black; 
+     z-index: 2;
+
+}
+.two{
+    background-color: green;
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    border: 0.5px solid black;
+     z-index: 2;
+}
+.onetwo{
+    display: flex;
+    position: relative;
+    left: 40px;
+}
+.three{
+    background-color: blue;
+    padding: 20px;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: 15%;
+    position: relative;
+    z-index: 3;
+    border: 0.5px solid black;
+    left: 70px;
+    
+}
+.four{
+    background-color: pink;
+    padding: 20px;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    z-index: 1;
+    border: 0.5px solid black;
+}
+.five{
+    background-color: aquamarine;
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    z-index: 1;
+    border: 0.5px solid black;   
+}
+.fourfive{
+    display: flex;
+    position: relative;
+    left: 40px;
+
+}
